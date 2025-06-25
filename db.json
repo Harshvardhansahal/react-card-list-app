@@ -1,16 +1,29 @@
 {
   "cards": [
     {
-      "id": "2372",
-      "title": "Card 1"
+      "id": "1",
+      "title": "Task Management App",
+      "description": "A comprehensive task management solution with real-time collaboration features."
     },
     {
-      "id": "9922",
-      "title": "Card 2"
+      "id": "2",
+      "title": "E-commerce Platform",
+      "description": "Modern e-commerce platform with advanced analytics and inventory management."
     },
     {
-      "id": "9dd6",
-      "title": "Card 3"
+      "id": "3",
+      "title": "Social Media Dashboard",
+      "description": "Unified dashboard for managing multiple social media accounts and analytics."
+    },
+    {
+      "id": "4",
+      "title": "Learning Management System",
+      "description": "Interactive platform for online courses with progress tracking and assessments."
+    },
+    {
+      "id": "0c34",
+      "title": "New Card 5",
+      "description": "This is a newly added project card with sample content and description."
     }
   ]
 }

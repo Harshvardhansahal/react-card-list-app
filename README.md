@@ -8,8 +8,8 @@ This is a simple React app built with **Vite** that displays a list of cards usi
 
 - ⚛️ Built with **React + Vite**
 - 📦 Uses `json-server` for mock API
-- ➕ Add new cards to the list
-- ❌ Delete cards from the list
+-  Add new cards to the list
+-  Delete cards from the list
 - 📁 Clean folder structure and reusable components
 
 ---

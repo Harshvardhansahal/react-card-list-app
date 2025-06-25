@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from './components/Card';
 import { getCards, deleteCard, addCard } from './api/cardService';
+import { LuPlus } from "react-icons/lu";
 import './styles/Card.css';
 
 const App = () => {
@@ -22,7 +23,8 @@ const App = () => {
 
   const handleAdd = async () => {
     const newCard = {
-      title: `Card ${cards.length + 1}`,
+      title: `New Card ${cards.length + 1}`,
+      description: "This is a newly added project card with sample content and description.",
     };
     const response = await addCard(newCard);
     setCards([...cards, response.data]);
@@ -30,17 +32,11 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Card List</h1>
-      <button onClick={handleAdd} className="add-btn">➕ Add Card</button>
+      <h1 className='container-title'>Card List</h1>
+      <button onClick={handleAdd} className="add-btn"><LuPlus/> Add Card</button>
       <div className="card-grid">
           {cards.map(card => (
-            <div
-              key={card.id}
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.5 }}
-              transition={{ duration: 0.3 }}
-            >
+            <div key={card.id}>
               <Card card={card} onDelete={handleDelete} />
             </div>
           ))}
