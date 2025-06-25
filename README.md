@@ -37,3 +37,29 @@ react-card-list-app/
 ├── db.json
 ├── package.json
 └── README.md
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/react-card-list-app.git
+cd react-card-list-app
+```
+### 2. Install dependencies
+```bash
+npm install
+```
+### 3. Run the mock API server
+```bash
+npm run server
+```
+This runs json-server at: http://localhost:3001/cards
+### 4. Start the React app
+```bash
+npm run dev
+```
+React app runs at: http://localhost:5173
