@@ -16,6 +16,7 @@ This is a simple React app built with **Vite** that displays a list of cards usi
 
 ## 🖼️ Preview
 
+![image](https://github.com/user-attachments/assets/a291eab3-d7e9-4ce6-95e9-19fcda122037)
 
 
 ---
